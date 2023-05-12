@@ -37,7 +37,9 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
 # Knowledge about NextJS:
+## Routing
 - Every page needs to be called page. For every Route we need a new folder with specific name.
 - Nesting routes is made by nesting directories with pages inside them. For dynamic routes [] brackets needs to be added with slug keyword. 
 - [...slug] catches all dynamic routes. 
 - For routes grouping name of a directory must be placed inside of parenthetis (). The name of directory is now ignored by the router.
+- Routes collisions are possible. For avoiding that we need to remeber which route was added first!
