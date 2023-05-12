@@ -2,6 +2,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 IMPORTANT: pages directory is an old way to put running code. Right now I'm using only app directory for that. Pages directory will be add for  backend API routes.
 
+
 ## Getting Started
 
 First, run the development server:
@@ -34,3 +35,6 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+# Knowledge about NextJS:
+- Every page needs to be called page. For every Route we need a new folder with specific name.

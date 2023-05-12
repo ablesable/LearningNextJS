@@ -1,5 +1,5 @@
 import Image from 'next/image'
-//This is for now only page in app (root) folder, so it's index page. Extension is tsx, cause it's typescript kinda file.
+//This is only page in app (root) folder, so it's index page. Extension is tsx, cause it's typescript kinda file.
 //Routes are created automatically in next.js. We don't need to worry about creating route files.
 
 export default function Home() {
