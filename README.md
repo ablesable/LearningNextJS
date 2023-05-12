@@ -1,5 +1,7 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+IMPORTANT: pages directory is an old way to put running code. Right now I'm using only app directory for that. Pages directory will be add for  backend API routes.
+
 ## Getting Started
 
 First, run the development server:
