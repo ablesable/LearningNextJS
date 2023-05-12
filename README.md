@@ -38,4 +38,6 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 # Knowledge about NextJS:
 - Every page needs to be called page. For every Route we need a new folder with specific name.
-- Nesting routes is made by nesting directories with pages inside them. For dynamic routes [] brackets needs to be added with slug keyword.
+- Nesting routes is made by nesting directories with pages inside them. For dynamic routes [] brackets needs to be added with slug keyword. 
+- [...slug] catches all dynamic routes. 
+- For routes grouping name of a directory must be placed inside of parenthetis (). The name of directory is now ignored by the router.
