@@ -36,3 +36,15 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+# Knowledge about NextJS:
+## Routing
+- Every page needs to be called page. For every Route we need a new folder with specific name.
+- Nesting routes is made by nesting directories with pages inside them. For dynamic routes [] brackets needs to be added with slug keyword. 
+- [...slug] catches all dynamic routes. 
+- For routes grouping name of a directory must be placed inside of parenthetis (). The name of directory is now ignored by the router.
+- Routes collisions are possible. For avoiding that we need to remeber which route was added first!
+## Rendering
+- Layout page is doing... layout for every page in the project.
+- {children} is a reactNode object pass to layout to render the page. Page content is exported as children object.
+- Soft navigation is a condition when router fetches the data that has been changed from cache rather than than the server. It helps to render page quicker. Link mechanism can do that, in oposite to anchor tag (re-rendering, re-fetching and reloading of everything). Just like going to the sidebar and typing everything.
