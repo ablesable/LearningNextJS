@@ -43,3 +43,6 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 - [...slug] catches all dynamic routes. 
 - For routes grouping name of a directory must be placed inside of parenthetis (). The name of directory is now ignored by the router.
 - Routes collisions are possible. For avoiding that we need to remeber which route was added first!
+## Rendering
+- Layout page is doing... layout for every page in the project.
+- {children} is a reactNode object pass to layout to render the page. Page content is exported as children object.
