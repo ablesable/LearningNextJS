@@ -46,3 +46,4 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 ## Rendering
 - Layout page is doing... layout for every page in the project.
 - {children} is a reactNode object pass to layout to render the page. Page content is exported as children object.
+- Soft navigation is a condition when router fetches the data that has been changed from cache rather than than the server. It helps to render page quicker. Link mechanism can do that, in oposite to anchor tag (re-rendering, re-fetching and reloading of everything). Just like going to the sidebar and typing everything.
