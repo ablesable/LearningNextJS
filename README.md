@@ -49,4 +49,4 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 - {children} is a reactNode object pass to layout to render the page. Page content is exported as children object.
 - Soft navigation is a condition when router fetches the data that has been changed from cache rather than than the server. It helps to render page quicker. Link mechanism can do that, in oposite to anchor tag (re-rendering, re-fetching and reloading of everything). Just like going to the sidebar and typing everything.
 - In React app all JavaScript will be in the browser, but in Next.js default component is a server component and pure html is going to the browser. That's why I'm able to add filesystem library from node.js in contact page.
-- 
+- Programmatic routing is only available with client components.
