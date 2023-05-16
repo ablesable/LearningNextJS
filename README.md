@@ -52,4 +52,4 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 - Programatic routing is only available with client components.
 - SSR is when component is rendered on the server, and html is passed to the browser with data that is serialized. Then component needs to by hydrated in client mode.
 - with Server components, they're not passed as SSR components. They're just passed in a streaming way. (Default components in next.js). This solution resolves waterfall problem, typical with client components.
-- 
+- async function in server component can reload by taking cache. With react I wouldn't be allowed to make async function, because it only runs once and then hooks needs to be added, just for keeping track of some variables. 
